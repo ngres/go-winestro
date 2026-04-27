@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"html"
 	"net/url"
+	"time"
 )
 
 type BundleItem struct {
@@ -103,7 +104,7 @@ type Product struct {
 	Stock              float32              `xml:"artikel_bestand" json:"stock,omitempty"`
 	CompanyStock       float32              `xml:"artikel_bestand_firmenverbund" json:"company_stock,omitempty"`
 	WebshopStock       float32              `xml:"artikel_bestand_webshop" json:"webshop_stock,omitempty"`
-	LastModifiedDate   timestamp            `xml:"artikel_last_modified" json:"last_modified_date,omitempty"`
+	LastModifiedDate   time.Time            `xml:"-" json:"last_modified_date,omitempty"`
 	NuanceItems        []ProductNuance      `xml:"artikel_nuancen_items>artikel_nuancen_item" json:"nuance_items,omitempty"`
 	AwardItems         []ProductAward       `xml:"artikel_auszeichnungen>artikel_auszeichnungen_item" json:"award_items,omitempty"`
 	FoodPairingItems   []ProductFoodPairing `xml:"artikel_speisen_items>artikel_speisen_item" json:"food_pairing_items,omitempty"`
@@ -111,32 +112,36 @@ type Product struct {
 
 func (p *Product) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	type productAlias Product
-	var v productAlias
+	var v struct {
+		productAlias
+		LastModifiedDate timestamp `xml:"artikel_last_modified"`
+	}
 	err := d.DecodeElement(&v, &start)
 	if err != nil {
 		return err
 	}
 
-	v.SKU, err = url.QueryUnescape(v.SKU)
+	v.productAlias.SKU, err = url.QueryUnescape(v.productAlias.SKU)
 	if err != nil {
 		return err
 	}
 
-	v.Name = html.UnescapeString(v.Name)
-	v.Fat = html.UnescapeString(v.Fat)
-	v.UnsaturatedFat = html.UnescapeString(v.UnsaturatedFat)
-	v.Carbohydrates = html.UnescapeString(v.Carbohydrates)
-	v.Salt = html.UnescapeString(v.Salt)
-	v.Fibre = html.UnescapeString(v.Fibre)
-	v.Vitamins = html.UnescapeString(v.Vitamins)
-	v.SulfuricAcids = html.UnescapeString(v.SulfuricAcids)
-	v.FreeSulfuricAcids = html.UnescapeString(v.FreeSulfuricAcids)
-	v.Histamine = html.UnescapeString(v.Histamine)
-	v.Glycerin = html.UnescapeString(v.Glycerin)
-	v.Protein = html.UnescapeString(v.Protein)
-	v.Calories = html.UnescapeString(v.Calories)
+	v.productAlias.Name = html.UnescapeString(v.productAlias.Name)
+	v.productAlias.Fat = html.UnescapeString(v.productAlias.Fat)
+	v.productAlias.UnsaturatedFat = html.UnescapeString(v.productAlias.UnsaturatedFat)
+	v.productAlias.Carbohydrates = html.UnescapeString(v.productAlias.Carbohydrates)
+	v.productAlias.Salt = html.UnescapeString(v.productAlias.Salt)
+	v.productAlias.Fibre = html.UnescapeString(v.productAlias.Fibre)
+	v.productAlias.Vitamins = html.UnescapeString(v.productAlias.Vitamins)
+	v.productAlias.SulfuricAcids = html.UnescapeString(v.productAlias.SulfuricAcids)
+	v.productAlias.FreeSulfuricAcids = html.UnescapeString(v.productAlias.FreeSulfuricAcids)
+	v.productAlias.Histamine = html.UnescapeString(v.productAlias.Histamine)
+	v.productAlias.Glycerin = html.UnescapeString(v.productAlias.Glycerin)
+	v.productAlias.Protein = html.UnescapeString(v.productAlias.Protein)
+	v.productAlias.Calories = html.UnescapeString(v.productAlias.Calories)
 
-	*p = Product(v)
+	*p = Product(v.productAlias)
+	p.LastModifiedDate = time.Time(v.LastModifiedDate)
 	return nil
 }
 
