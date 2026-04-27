@@ -5,23 +5,7 @@ import (
 	"fmt"
 	"html"
 	"net/url"
-	"time"
 )
-
-type timestamp time.Time
-
-func (t *timestamp) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
-	var s string
-	if err := d.DecodeElement(&s, &start); err != nil {
-		return err
-	}
-	parsedTime, err := time.Parse("2006-01-02 15:04:05", s)
-	if err != nil {
-		return err
-	}
-	*t = timestamp(parsedTime)
-	return nil
-}
 
 type BundleItem struct {
 	SKU      string  `xml:"artikel_sort_item_weinnr" json:"sku"`
@@ -39,7 +23,7 @@ type ProductAward struct {
 }
 
 type ProductFoodPairing struct {
-	Food string `xml:"artikel_essen" json:"food"`
+	Name string `xml:"artikel_speisen_name" json:"name"`
 }
 
 type Product struct {

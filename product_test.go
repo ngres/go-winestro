@@ -1,6 +1,7 @@
 package winestro_test
 
 import (
+	"encoding/json"
 	"testing"
 
 	"github.com/nico0302/go-winestro"
@@ -16,6 +17,11 @@ func TestParseSingleProduct(t *testing.T) {
 	assert.Equal(t, "2025er Rosé trocken", p.Name)
 	assert.NotEmpty(t, p.ProductGroups)
 	assert.Equal(t, 2, len(p.FoodPairingItems))
+
+	jsonBytes, err := json.MarshalIndent(p, "", "  ")
+	assert.NoError(t, err)
+
+	t.Logf("product JSON:\n%s", string(jsonBytes))
 }
 
 func TestParseBundle(t *testing.T) {
