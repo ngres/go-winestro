@@ -79,6 +79,9 @@ func (c *Client) do(action string, params map[string]string, v interface{}) erro
 		return err
 	}
 	defer resp.Body.Close()
+	if resp.StatusCode != http.StatusNoContent {
+		return nil
+	}
 	return decode(resp.Body, v)
 }
 

@@ -168,5 +168,9 @@ func (c *Client) FetchProducts(opt ProductOptions) ([]Product, error) {
 	}
 	var products ProductResp
 	err := c.do("getArtikel", params, &products)
-	return products.Products, err
+	if err != nil {
+		return nil, fmt.Errorf("failed to fetch products: %w", err)
+	}
+
+	return products.Products, nil
 }
