@@ -1,0 +1,12 @@
+name: default
+variables:
+  - name: endpoint
+    value: https://weinstore.net/xml/v23.0/wbo-API.php
+  - secret: true
+    name: UID
+  - secret: true
+    name: apiUSER
+  - secret: true
+    name: apiCODE
+  - secret: true
+    name: apiShopID

@@ -1,0 +1,57 @@
+info:
+  name: getArtikel
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: "{{endpoint}}?apiACTION=getArtikel&id_grp=&suchstring=&artikelnr=&bestand=false&firmenverbund=false&UID={{UID}}&apiUSER={{apiUSER}}&apiCODE={{apiCODE}}&apiShopID={{apiShopID}}"
+  params:
+    - name: apiACTION
+      value: getArtikel
+      type: query
+    - name: id_grp
+      value: ""
+      type: query
+    - name: suchstring
+      value: ""
+      type: query
+    - name: artikelnr
+      value: ""
+      type: query
+    - name: bestand
+      value: "false"
+      type: query
+    - name: firmenverbund
+      value: "false"
+      type: query
+    - name: UID
+      value: "{{UID}}"
+      type: query
+    - name: apiUSER
+      value: "{{apiUSER}}"
+      type: query
+    - name: apiCODE
+      value: "{{apiCODE}}"
+      type: query
+    - name: apiShopID
+      value: "{{apiShopID}}"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+
+docs: |
+  id_grp: Artikelgruppe die angezeigt werden soll (optinal)
+
+  suchstring: String nach dem in Artikelname oder Beschreibung gesucht werden kann (optional)
+
+  artikelnr: Artikelnummer des Artikels dessen Infos abgerufen werden (optional)
+
+  bestand: 	Gibt den freien Bestand (Laufzeit beachten!) (default ist "false", Erwartet "true" als String.)
+
+  firmenverbund: Gibt einen zusätzlichen freien Bestand über den Firmenverbund zurück (Laufzeit beachten!)

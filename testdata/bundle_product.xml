@@ -1,161 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <items>
   <item>
-    <artikel_nr>PR-FJ%2B2025</artikel_nr>
-    <artikel_name>Probepaket Terroir &amp; Classic</artikel_name>
-    <artikel_beschreibung/>
-    <artikel_jahrgang/>
-    <artikel_sorte/>
-    <artikel_qualitaet/>
-    <artikel_geschmack/>
-    <artikel_zucker/>
-    <artikel_alkohol/>
-    <artikel_saeure/>
-    <artikel_liter>9</artikel_liter>
+    <artikel_nr>PR-FT%2B2025</artikel_nr>
+    <artikel_name>Festtagspaket</artikel_name>
+    <artikel_beschreibung>2024 Weißer Burgunder
+      2024 Riesling von der Kreide
+      2024 Chardonnay
+      2024 Pinot Rosé Sekt brut
+      2024 Riesling Sekt trocken
+      2022 Merlot
+      2022 GRES Nummer I
+      2023 Riesling Hundertgulden
+      2023 Rosecco
+      2024 Apprizzi
+      Winzerglühwein Rot
+      Winzerglühwein Weß</artikel_beschreibung>
+    <artikel_jahrgang></artikel_jahrgang>
+    <artikel_sorte></artikel_sorte>
+    <artikel_qualitaet></artikel_qualitaet>
+    <artikel_geschmack></artikel_geschmack>
+    <artikel_zucker></artikel_zucker>
+    <artikel_alkohol></artikel_alkohol>
+    <artikel_saeure></artikel_saeure>
+    <artikel_liter>9.5</artikel_liter>
     <artikel_gewicht>0</artikel_gewicht>
     <artikel_sulfite>0</artikel_sulfite>
-    <artikel_bild/>
-    <artikel_bild_big/>
-    <artikel_bild_2/>
-    <artikel_bild_big_2/>
-    <artikel_bild_3/>
-    <artikel_bild_big_3/>
-    <artikel_bild_4/>
-    <artikel_bild_big_4/>
-    <artikel_bild_winestro/>
-    <artikel_bild2_winestro/>
-    <artikel_bild3_winestro/>
-    <artikel_bild4_winestro/>
+    <artikel_bild></artikel_bild>
+    <artikel_bild_big></artikel_bild_big>
+    <artikel_bild_2></artikel_bild_2>
+    <artikel_bild_big_2></artikel_bild_big_2>
+    <artikel_bild_3></artikel_bild_3>
+    <artikel_bild_big_3></artikel_bild_big_3>
+    <artikel_bild_4></artikel_bild_4>
+    <artikel_bild_big_4></artikel_bild_big_4>
+    <artikel_bild_winestro></artikel_bild_winestro>
+    <artikel_bild2_winestro></artikel_bild2_winestro>
+    <artikel_bild3_winestro></artikel_bild3_winestro>
+    <artikel_bild4_winestro></artikel_bild4_winestro>
     <artikel_nuancen>a:0:{}</artikel_nuancen>
     <artikel_auszeichnungen>a:0:{}</artikel_auszeichnungen>
-    <artikel_versandzahl>12.000</artikel_versandzahl>
-    <artikel_sort_anzahl>a:12:{s:6:"5+2023";s:5:"1.000";s:6:"6+2023";s:5:"1.000";s:7:"10+2023";s:5:"1.000";s:6:"9+2023";s:5:"1.000";s:7:"11+2023";s:5:"1.000";s:9:"SL15+2022";s:5:"1.000";s:8:"SL6+2022";s:5:"1.000";s:8:"SL4+2023";s:5:"1.000";s:8:"SL7+2023";s:5:"1.000";s:8:"SL8+2022";s:5:"1.000";s:8:"SL9+2023";s:5:"1.000";s:9:"SL10+2023";s:5:"1.000";}</artikel_sort_anzahl>
+    <artikel_speisen>a:0:{}</artikel_speisen>
+    <artikel_versandzahl>12</artikel_versandzahl>
+    <artikel_sort_anzahl>
+      a:12:{s:7:&quot;11+2024&quot;;s:5:&quot;1.000&quot;;s:8:&quot;SL9+2024&quot;;s:5:&quot;1.000&quot;;s:6:&quot;9+2024&quot;;s:5:&quot;1.000&quot;;s:7:&quot;AP+2024&quot;;s:5:&quot;1.000&quot;;s:7:&quot;MT+2022&quot;;s:5:&quot;1.000&quot;;s:6:&quot;1+2022&quot;;s:5:&quot;1.000&quot;;s:8:&quot;SL2+2023&quot;;s:5:&quot;1.000&quot;;s:7:&quot;RS+2023&quot;;s:5:&quot;1.000&quot;;s:4:&quot;S15R&quot;;s:5:&quot;1.000&quot;;s:4:&quot;S15W&quot;;s:5:&quot;1.000&quot;;s:7:&quot;41+2024&quot;;s:5:&quot;1.000&quot;;s:7:&quot;35+2024&quot;;s:5:&quot;1.000&quot;;}</artikel_sort_anzahl>
     <artikel_sort_items>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>5+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>829</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>11+2024</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2024er Weißer Burgunder</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>6+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>830</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>SL9+2024</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2024er Riesling &amp;quot;von der Kreide&amp;quot;</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>10+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>828</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>9+2024</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2024er Chardonnay</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>9+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>826</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>AP+2024</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2024er Apprizzi</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>11+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>836</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>MT+2022</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2022er Merlot</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>SL15+2022</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>808</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>1+2022</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2022er GRES Nummer I</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>SL6+2022</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>837</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>SL2+2023</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2023er Riesling Hundertgulden</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>SL4+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>799</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>RS+2023</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2023er Rosecco</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>SL7+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>854</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>S15R</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>Winzerglühwein Rot</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>SL8+2022</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>855</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>S15W</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>Winzerglühwein Weiß</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>SL9+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>858</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>41+2024</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2022er Pinot Rosé Sekt brut</artikel_sort_item_name>
       </artikel_sort_item>
       <artikel_sort_item>
-        <artikel_sort_item_weinnr>SL10+2023</artikel_sort_item_weinnr>
+        <artikel_sort_item_id_weine>861</artikel_sort_item_id_weine>
+        <artikel_sort_item_weinnr>35+2024</artikel_sort_item_weinnr>
         <artikel_sort_item_anzahl>1.000</artikel_sort_item_anzahl>
+        <artikel_sort_item_name>2024er Riesling Sekt trocken</artikel_sort_item_name>
       </artikel_sort_item>
     </artikel_sort_items>
-    <artikel_preis>90</artikel_preis>
-    <artikel_streichpreis/>
-    <artikel_shopnotiz/>
-    <artikel_literpreis>10</artikel_literpreis>
+    <artikel_preis>111</artikel_preis>
+    <artikel_streichpreis></artikel_streichpreis>
+    <artikel_shopnotiz></artikel_shopnotiz>
+    <artikel_literpreis>11.684210526316</artikel_literpreis>
     <artikel_mwst>19.00</artikel_mwst>
-    <artikel_brennwert/>
+    <artikel_brennwert></artikel_brennwert>
     <artikel_brennwert_joule>0</artikel_brennwert_joule>
-    <artikel_allergene/>
-    <artikel_eiweiss/>
+    <artikel_allergene></artikel_allergene>
+    <artikel_eiweiss></artikel_eiweiss>
     <artikel_versandfrei>0</artikel_versandfrei>
     <artikel_keinliterpreis>0</artikel_keinliterpreis>
     <artikel_fuellgewicht>0</artikel_fuellgewicht>
     <artikel_kilopreis>0</artikel_kilopreis>
     <artikel_ausgetrunken>false</artikel_ausgetrunken>
-    <artikel_apnr/>
+    <artikel_ausgetrunken_bis></artikel_ausgetrunken_bis>
+    <artikel_apnr></artikel_apnr>
     <artikel_expertise>0</artikel_expertise>
-    <artikel_labellink/>
-    <artikel_elabel_extern/>
-    <artikel_boden/>
-    <artikel_notiz/>
-    <artikel_lage/>
+    <artikel_labellink></artikel_labellink>
+    <artikel_elabel_extern></artikel_elabel_extern>
+    <artikel_boden></artikel_boden>
+    <artikel_notiz></artikel_notiz>
+    <artikel_lage></artikel_lage>
     <artikel_kategorie>k.A.</artikel_kategorie>
-    <artikel_anbaugebiet/>
-    <artikel_trinktemperatur/>
-    <artikel_ausbau/>
-    <artikel_lagerfaehigkeit/>
-    <artikel_trinkreife/>
-    <artikel_typ>Probepakete</artikel_typ>
-    <artikel_typ_id>13</artikel_typ_id>
-    <artikel_typ_beschreibung/>
-    <artikel_farbe/>
-    <artikel_videolink/>
-    <artikel_zutaten/>
-    <artikel_mhd/>
-    <artikel_fett/>
-    <artikel_fetts/>
-    <artikel_kohlenhydrate/>
-    <artikel_salz/>
-    <artikel_ballast/>
-    <artikel_vitamine/>
-    <artikel_frei_schwefelsaeure/>
-    <artikel_gesamt_schwefelsaeure/>
-    <artikel_histamin/>
-    <artikel_glycerin/>
+    <artikel_anbaugebiet></artikel_anbaugebiet>
+    <artikel_trinktemperatur></artikel_trinktemperatur>
+    <artikel_ausbau></artikel_ausbau>
+    <artikel_lagerfaehigkeit></artikel_lagerfaehigkeit>
+    <artikel_trinkreife></artikel_trinkreife>
+    <artikel_typ>Keine Kategorie</artikel_typ>
+    <artikel_typ_id>-1</artikel_typ_id>
+    <artikel_typ_beschreibung></artikel_typ_beschreibung>
+    <artikel_farbe></artikel_farbe>
+    <artikel_videolink></artikel_videolink>
+    <artikel_zutaten></artikel_zutaten>
+    <artikel_mhd></artikel_mhd>
+    <artikel_fett></artikel_fett>
+    <artikel_fetts></artikel_fetts>
+    <artikel_kohlenhydrate></artikel_kohlenhydrate>
+    <artikel_salz></artikel_salz>
+    <artikel_ballast></artikel_ballast>
+    <artikel_vitamine></artikel_vitamine>
+    <artikel_frei_schwefelsaeure></artikel_frei_schwefelsaeure>
+    <artikel_gesamt_schwefelsaeure></artikel_gesamt_schwefelsaeure>
+    <artikel_histamin></artikel_histamin>
+    <artikel_glycerin></artikel_glycerin>
     <artikel_weinstock>0</artikel_weinstock>
-    <artikel_labeltext/>
-    <artikel_land/>
-    <artikel_region/>
-    <artikel_anbaugebiete/>
+    <artikel_labeltext></artikel_labeltext>
+    <artikel_land></artikel_land>
+    <artikel_region></artikel_region>
+    <artikel_anbaugebiete></artikel_anbaugebiete>
     <artikel_bestand_warnung_ab>20</artikel_bestand_warnung_ab>
     <artikel_erzeuger>0</artikel_erzeuger>
     <artikel_erzeuger_name>Weingut Gres, Ingelheimer Str. 6, DE-55437, Appenheim</artikel_erzeuger_name>
-    <artikel_erzeuger_nummer/>
+    <artikel_erzeuger_nummer></artikel_erzeuger_nummer>
     <artikel_erzeuger_text>Erzeugerabfüllung</artikel_erzeuger_text>
     <artikel_erzeuger_firma>Weingut Gres</artikel_erzeuger_firma>
     <artikel_erzeuger_adresse>Ingelheimer Str. 6, DE-55437, Appenheim</artikel_erzeuger_adresse>
-    <artikel_verpackung>4</artikel_verpackung>
-    <artikel_verpackung_bezeichnung>Karton</artikel_verpackung_bezeichnung>
-    <artikel_verpackung_inhalt>12</artikel_verpackung_inhalt>
-    <artikel_ean13/>
-    <artikel_ean13_kiste/>
+    <artikel_erzeuger_strasse>Ingelheimer Str.</artikel_erzeuger_strasse>
+    <artikel_erzeuger_hnummer>6</artikel_erzeuger_hnummer>
+    <artikel_erzeuger_plz>55437</artikel_erzeuger_plz>
+    <artikel_erzeuger_ort>Appenheim</artikel_erzeuger_ort>
+    <artikel_erzeuger_land>DE</artikel_erzeuger_land>
+    <artikel_verpackung>1</artikel_verpackung>
+    <artikel_verpackung_bezeichnung>Flasche</artikel_verpackung_bezeichnung>
+    <artikel_verpackung_inhalt>0</artikel_verpackung_inhalt>
+    <artikel_ean13></artikel_ean13>
+    <artikel_ean13_kiste></artikel_ean13_kiste>
     <artikel_zimmer_typ>0</artikel_zimmer_typ>
-    <artikel_qr/>
-    <artikel_bestand>-28</artikel_bestand>
-    <artikel_bestand_webshop>-28</artikel_bestand_webshop>
-    <artikel_bestand_firmenverbund/>
-    <artikel_last_modified>2025-03-29 07:33:21</artikel_last_modified>
-    <artikel_warengruppen>
-      <warengruppe>Webshop</warengruppe>
-    </artikel_warengruppen>
-    <artikel_warengruppen_static>Webshop</artikel_warengruppen_static>
-    <artikel_warengruppen_kategorien>
-      <warengruppe_kategorie>
-        <warengruppen_kategorie_nr>1</warengruppen_kategorie_nr>
-        <warengruppe_kategorie_name>Standard</warengruppe_kategorie_name>
-        <warengruppe_kategorie_beschreibung>Default-Gruppe</warengruppe_kategorie_beschreibung>
-      </warengruppe_kategorie>
-    </artikel_warengruppen_kategorien>
+    <artikel_qr></artikel_qr>
+    <artikel_bestand></artikel_bestand>
+    <artikel_bestand_webshop></artikel_bestand_webshop>
+    <artikel_bestand_firmenverbund></artikel_bestand_firmenverbund>
+    <artikel_last_modified>2026-04-27 05:49:16</artikel_last_modified>
+    <artikel_flaschen_berechnung>1</artikel_flaschen_berechnung>
+    <artikel_isticket>0</artikel_isticket>
+    <artikel_ticketcount>0</artikel_ticketcount>
+    <artikel_ticketsold>0</artikel_ticketsold>
+    <artikel_warengruppen></artikel_warengruppen>
+    <artikel_warengruppen_static></artikel_warengruppen_static>
+    <artikel_warengruppen_ids></artikel_warengruppen_ids>
+    <artikel_warengruppen_kategorien></artikel_warengruppen_kategorien>
   </item>
 </items>

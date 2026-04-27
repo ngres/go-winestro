@@ -1,110 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <items>
   <item>
-    <artikel_nr>5%2B2024</artikel_nr>
-    <artikel_name>2024er Weißherbst Blauer Portugieser</artikel_name>
-    <artikel_beschreibung>Qualitätswein mild 0,75l</artikel_beschreibung>
-    <artikel_jahrgang>2024</artikel_jahrgang>
-    <artikel_sorte>Blauer Portugieser</artikel_sorte>
+    <artikel_nr>6%2B2025</artikel_nr>
+    <artikel_name>2025er Ros&amp;eacute; trocken</artikel_name>
+    <artikel_beschreibung>Qualitätswein trocken 0,75l</artikel_beschreibung>
+    <artikel_jahrgang>2025</artikel_jahrgang>
+    <artikel_sorte>Rosé</artikel_sorte>
     <artikel_qualitaet>Qualitätswein</artikel_qualitaet>
-    <artikel_geschmack>mild</artikel_geschmack>
-    <artikel_zucker>26.4</artikel_zucker>
-    <artikel_alkohol>10</artikel_alkohol>
-    <artikel_saeure>6.2</artikel_saeure>
+    <artikel_geschmack>trocken</artikel_geschmack>
+    <artikel_zucker>7</artikel_zucker>
+    <artikel_alkohol>12.5</artikel_alkohol>
+    <artikel_saeure>7.7</artikel_saeure>
     <artikel_liter>0.75</artikel_liter>
     <artikel_gewicht>1.2</artikel_gewicht>
     <artikel_sulfite>1</artikel_sulfite>
-    <artikel_bild>https://nephele-s5.de/bilder/small/2025-02-08-18-45-54-3608-.png</artikel_bild>
-    <artikel_bild_big>https://nephele-s5.de/bilder/big/2025-02-08-18-45-54-3608-.png</artikel_bild_big>
-    <artikel_bild_2/>
-    <artikel_bild_big_2/>
-    <artikel_bild_3/>
-    <artikel_bild_big_3/>
-    <artikel_bild_4/>
-    <artikel_bild_big_4/>
-    <artikel_bild_winestro>https://nephele-s5.de/bilder/winestro/2025-02-08-18-45-54-3608-.png</artikel_bild_winestro>
-    <artikel_bild2_winestro/>
-    <artikel_bild3_winestro/>
-    <artikel_bild4_winestro/>
-    <artikel_nuancen>a:0:{}</artikel_nuancen>
-    <artikel_auszeichnungen>a:0:{}</artikel_auszeichnungen>
+    <artikel_bild></artikel_bild>
+    <artikel_bild_big></artikel_bild_big>
+    <artikel_bild_2></artikel_bild_2>
+    <artikel_bild_big_2></artikel_bild_big_2>
+    <artikel_bild_3></artikel_bild_3>
+    <artikel_bild_big_3></artikel_bild_big_3>
+    <artikel_bild_4></artikel_bild_4>
+    <artikel_bild_big_4></artikel_bild_big_4>
+    <artikel_bild_winestro></artikel_bild_winestro>
+    <artikel_bild2_winestro></artikel_bild2_winestro>
+    <artikel_bild3_winestro></artikel_bild3_winestro>
+    <artikel_bild4_winestro></artikel_bild4_winestro>
+    <artikel_nuancen>a:1:{s:8:&quot;Aprikose&quot;;s:23:&quot;Fotolia_42743197_XS.jpg&quot;;}</artikel_nuancen>
+    <artikel_nuancen_items>
+      <artikel_nuancen_item>
+        <artikel_nuancen_item_name>Aprikose</artikel_nuancen_item_name>
+        <artikel_nuancen_item_image>Fotolia_42743197_XS.jpg</artikel_nuancen_item_image>
+      </artikel_nuancen_item>
+    </artikel_nuancen_items>
+    <artikel_auszeichnungen>a:1:{s:6:&quot; vegan&quot;;s:9:&quot;vegan.jpg&quot;;}</artikel_auszeichnungen>
+    <artikel_auszeichnungen_items>
+      <artikel_auszeichnungen_item>
+        <artikel_auszeichnungen_name> vegan</artikel_auszeichnungen_name>
+        <artikel_auszeichnungen_image>vegan.jpg</artikel_auszeichnungen_image>
+      </artikel_auszeichnungen_item>
+    </artikel_auszeichnungen_items>
+    <artikel_speisen>a:2:{s:5:&quot;lachs&quot;;s:0:&quot;&quot;;s:13:&quot;Huhn
+      gebraten&quot;;s:0:&quot;&quot;;}</artikel_speisen>
+    <artikel_speisen_items>
+      <artikel_speisen_item>
+        <artikel_speisen_name>lachs</artikel_speisen_name>
+      </artikel_speisen_item>
+      <artikel_speisen_item>
+        <artikel_speisen_name>Huhn gebraten</artikel_speisen_name>
+      </artikel_speisen_item>
+    </artikel_speisen_items>
     <artikel_versandzahl>1</artikel_versandzahl>
-    <artikel_sort_anzahl/>
-    <artikel_preis>7.3</artikel_preis>
-    <artikel_streichpreis/>
-    <artikel_shopnotiz>Roséwein von spritzig milder Art</artikel_shopnotiz>
-    <artikel_literpreis>9.7333333333333</artikel_literpreis>
+    <artikel_sort_anzahl></artikel_sort_anzahl>
+    <artikel_preis>7.9</artikel_preis>
+    <artikel_streichpreis></artikel_streichpreis>
+    <artikel_shopnotiz>&lt;!--
+      body: 2
+      sweetness: 1.5
+      acidity: 2
+      --&gt;
+
+      &lt;p&gt;Aus ausgesuchten Trauben von Spätburgunder und Merlot.&lt;/p&gt;
+
+      &lt;h2&gt;Herkunft &amp; Terroir&lt;/h2&gt;
+
+      &lt;p&gt;Dieser Rosé stammt aus unseren Spätburgunder- und Merlotweinbergen rund um Appenheim.
+      Das milde Klima der Region sorgt für eine gleichmäßige Reife der Trauben und bewahrt deren
+      frische Aromatik. In Verbindung mit sorgfältiger Weinbergsarbeit entsteht ein zugänglicher,
+      klarer Rosé, der von dem Rebsortencharakter beider Rebsorten lebt.&lt;/p&gt;
+      &lt;h2&gt;Ausbau&lt;/h2&gt;
+
+      &lt;p&gt;Die Trauben wurden schonend geerntet und behutsam verarbeitet, um Oxidation und
+      unerwünschte Extraktion zu vermeiden. Eine sehr sanfte Pressung sorgte für die feine, helle
+      Farbgebung. Der Most wurde kühl vergoren, um Frische, Frucht und aromatische Klarheit zu
+      erhalten. Ziel war ein trockener Rosé, der Leichtigkeit, Spannung und Trinkfreude in den
+      Vordergrund stellt.&lt;/p&gt;
+
+      &lt;h2&gt;Sensorik&lt;/h2&gt;
+
+      &lt;p&gt;Im Glas zeigt sich der Rosé in einem zarten Lachsrosa mit heller Transparenz, mit
+      einem feinen Stich ins Orangene. In der Nase frisch und einladend mit Aromen von roten Beeren,
+      insbesondere Erdbeere und Himbeere, ergänzt durch einen Hauch von roter Johannisbeere und
+      Zitruszeste.&lt;/p&gt;
+
+      &lt;p&gt;Am Gaumen trocken und präzise, dabei äußerst trinkfreudig. Die Frucht ist klar und
+      saftig, die Säure lebendig, aber gut eingebunden. Der Abgang ist frisch, animierend und
+      harmonisch - ein Rosé, der Leichtigkeit und Struktur gekonnt verbindet.&lt;/p&gt;</artikel_shopnotiz>
+    <artikel_literpreis>10.533333333333</artikel_literpreis>
     <artikel_mwst>19.00</artikel_mwst>
-    <artikel_brennwert>68</artikel_brennwert>
-    <artikel_brennwert_joule>284</artikel_brennwert_joule>
-    <artikel_allergene/>
-    <artikel_eiweiss>&amp;lt; 0.5</artikel_eiweiss>
+    <artikel_brennwert>76</artikel_brennwert>
+    <artikel_brennwert_joule>318</artikel_brennwert_joule>
+    <artikel_allergene></artikel_allergene>
+    <artikel_eiweiss>0</artikel_eiweiss>
     <artikel_versandfrei>0</artikel_versandfrei>
     <artikel_keinliterpreis>0</artikel_keinliterpreis>
     <artikel_fuellgewicht>0</artikel_fuellgewicht>
     <artikel_kilopreis>0</artikel_kilopreis>
     <artikel_ausgetrunken>false</artikel_ausgetrunken>
-    <artikel_apnr/>
+    <artikel_ausgetrunken_bis></artikel_ausgetrunken_bis>
+    <artikel_apnr></artikel_apnr>
     <artikel_expertise>0</artikel_expertise>
-    <artikel_labellink>https://winestro.info/?s=co8iyzj1</artikel_labellink>
-    <artikel_elabel_extern>https://winestro.info/?s=co8iyzj1</artikel_elabel_extern>
-    <artikel_boden/>
-    <artikel_notiz/>
-    <artikel_lage/>
-    <artikel_kategorie>k.A.</artikel_kategorie>
-    <artikel_anbaugebiet/>
-    <artikel_trinktemperatur/>
-    <artikel_ausbau/>
-    <artikel_lagerfaehigkeit/>
-    <artikel_trinkreife/>
+    <artikel_labellink>https://winestro.info/?s=t9pyl6c5</artikel_labellink>
+    <artikel_elabel_extern>https://winestro.info/?s=t9pyl6c5</artikel_elabel_extern>
+    <artikel_boden></artikel_boden>
+    <artikel_notiz></artikel_notiz>
+    <artikel_lage></artikel_lage>
+    <artikel_kategorie>Rosé</artikel_kategorie>
+    <artikel_anbaugebiet></artikel_anbaugebiet>
+    <artikel_trinktemperatur>12</artikel_trinktemperatur>
+    <artikel_ausbau></artikel_ausbau>
+    <artikel_lagerfaehigkeit></artikel_lagerfaehigkeit>
+    <artikel_trinkreife></artikel_trinkreife>
     <artikel_typ>Gutsweine Rot- und Roséweine</artikel_typ>
     <artikel_typ_id>5</artikel_typ_id>
-    <artikel_typ_beschreibung/>
-    <artikel_farbe/>
-    <artikel_videolink/>
-    <artikel_zutaten>Trauben, Saccharose, Stabilisator: Metaweinsäure, unter Schutzatmosphäre abgefüllt</artikel_zutaten>
-    <artikel_mhd/>
-    <artikel_fett>&amp;lt; 0.5</artikel_fett>
-    <artikel_fetts>&amp;lt; 0.1</artikel_fetts>
-    <artikel_kohlenhydrate>34</artikel_kohlenhydrate>
-    <artikel_salz>&amp;lt; 0.01</artikel_salz>
-    <artikel_ballast/>
-    <artikel_vitamine/>
-    <artikel_frei_schwefelsaeure>55</artikel_frei_schwefelsaeure>
-    <artikel_gesamt_schwefelsaeure>164</artikel_gesamt_schwefelsaeure>
-    <artikel_histamin/>
-    <artikel_glycerin>7,9</artikel_glycerin>
+    <artikel_typ_beschreibung></artikel_typ_beschreibung>
+    <artikel_farbe></artikel_farbe>
+    <artikel_videolink></artikel_videolink>
+    <artikel_zutaten>Trauben, Saccharose, unter Schutzatmosphäre abgefüllt</artikel_zutaten>
+    <artikel_mhd></artikel_mhd>
+    <artikel_fett></artikel_fett>
+    <artikel_fetts></artikel_fetts>
+    <artikel_kohlenhydrate>16</artikel_kohlenhydrate>
+    <artikel_salz></artikel_salz>
+    <artikel_ballast></artikel_ballast>
+    <artikel_vitamine></artikel_vitamine>
+    <artikel_frei_schwefelsaeure>61</artikel_frei_schwefelsaeure>
+    <artikel_gesamt_schwefelsaeure>155</artikel_gesamt_schwefelsaeure>
+    <artikel_histamin></artikel_histamin>
+    <artikel_glycerin>9.5</artikel_glycerin>
     <artikel_weinstock>0</artikel_weinstock>
-    <artikel_labeltext/>
-    <artikel_land/>
-    <artikel_region/>
-    <artikel_anbaugebiete/>
+    <artikel_labeltext>Enthält geringfügige Mengen von Fett, gesättigten Fettsäuren, Eiweiß und
+      Salz.</artikel_labeltext>
+    <artikel_land>Deutschland</artikel_land>
+    <artikel_region></artikel_region>
+    <artikel_anbaugebiete></artikel_anbaugebiete>
     <artikel_bestand_warnung_ab>20</artikel_bestand_warnung_ab>
     <artikel_erzeuger>0</artikel_erzeuger>
     <artikel_erzeuger_name>Weingut Gres, Ingelheimer Str. 6, DE-55437, Appenheim</artikel_erzeuger_name>
-    <artikel_erzeuger_nummer/>
+    <artikel_erzeuger_nummer></artikel_erzeuger_nummer>
     <artikel_erzeuger_text>Erzeugerabfüllung</artikel_erzeuger_text>
     <artikel_erzeuger_firma>Weingut Gres</artikel_erzeuger_firma>
     <artikel_erzeuger_adresse>Ingelheimer Str. 6, DE-55437, Appenheim</artikel_erzeuger_adresse>
+    <artikel_erzeuger_strasse>Ingelheimer Str.</artikel_erzeuger_strasse>
+    <artikel_erzeuger_hnummer>6</artikel_erzeuger_hnummer>
+    <artikel_erzeuger_plz>55437</artikel_erzeuger_plz>
+    <artikel_erzeuger_ort>Appenheim</artikel_erzeuger_ort>
+    <artikel_erzeuger_land>DE</artikel_erzeuger_land>
     <artikel_verpackung>1</artikel_verpackung>
     <artikel_verpackung_bezeichnung>Flasche</artikel_verpackung_bezeichnung>
     <artikel_verpackung_inhalt>6</artikel_verpackung_inhalt>
-    <artikel_ean13>4260163171757</artikel_ean13>
-    <artikel_ean13_kiste>4260163172754</artikel_ean13_kiste>
+    <artikel_ean13>4260163171764</artikel_ean13>
+    <artikel_ean13_kiste>4260163172761</artikel_ean13_kiste>
     <artikel_zimmer_typ>0</artikel_zimmer_typ>
-    <artikel_qr>https://winestro.info/?s=co8iyzj1</artikel_qr>
-    <artikel_bestand>1794</artikel_bestand>
-    <artikel_bestand_webshop>1794</artikel_bestand_webshop>
-    <artikel_bestand_firmenverbund/>
-    <artikel_last_modified>2025-03-28 00:13:17</artikel_last_modified>
+    <artikel_qr>https://winestro.info/?s=t9pyl6c5</artikel_qr>
+    <artikel_bestand></artikel_bestand>
+    <artikel_bestand_webshop></artikel_bestand_webshop>
+    <artikel_bestand_firmenverbund></artikel_bestand_firmenverbund>
+    <artikel_last_modified>2026-04-27 15:16:52</artikel_last_modified>
+    <artikel_flaschen_berechnung>1</artikel_flaschen_berechnung>
+    <artikel_isticket>0</artikel_isticket>
+    <artikel_ticketcount>0</artikel_ticketcount>
+    <artikel_ticketsold>0</artikel_ticketsold>
     <artikel_warengruppen>
+      <warengruppe>Webshop</warengruppe>
       <warengruppe>Flaschenwein</warengruppe>
     </artikel_warengruppen>
-    <artikel_warengruppen_static>Flaschenwein</artikel_warengruppen_static>
+    <artikel_warengruppen_static>Webshop,Flaschenwein</artikel_warengruppen_static>
+    <artikel_warengruppen_ids>1,2</artikel_warengruppen_ids>
     <artikel_warengruppen_kategorien>
       <warengruppe_kategorie>
         <warengruppen_kategorie_nr>1</warengruppen_kategorie_nr>
         <warengruppe_kategorie_name>Standard</warengruppe_kategorie_name>
         <warengruppe_kategorie_beschreibung>Default-Gruppe</warengruppe_kategorie_beschreibung>
+        <warengruppe_kategorie_rang>1</warengruppe_kategorie_rang>
       </warengruppe_kategorie>
     </artikel_warengruppen_kategorien>
   </item>

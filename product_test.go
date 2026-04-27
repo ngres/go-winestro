@@ -12,10 +12,10 @@ func TestParseSingleProduct(t *testing.T) {
 	decodeXMLFile(t, "single_product.xml", &resp)
 	p := resp.Products[0]
 
-	assert.Equal(t, "5+2024", p.SKU)
-	assert.Equal(t, "2024er Weißherbst Blauer Portugieser", p.Name)
-	assert.Equal(t, "< 0.5", p.Fat)
+	assert.Equal(t, "6+2025", p.SKU)
+	assert.Equal(t, "2025er Rosé trocken", p.Name)
 	assert.NotEmpty(t, p.ProductGroups)
+	assert.Equal(t, 2, len(p.FoodPairingItems))
 }
 
 func TestParseBundle(t *testing.T) {
